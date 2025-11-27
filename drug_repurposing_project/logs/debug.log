@@ -1,0 +1,148 @@
+2025-11-26 14:11:14,359 - INFO - enhanced_chembl_collector.py:488 - === 启动增强版ChEMBL数据收集器 ===
+2025-11-26 14:11:14,362 - INFO - enhanced_chembl_collector.py:85 - 创建目录: ../data/raw/
+2025-11-26 14:11:14,363 - INFO - enhanced_chembl_collector.py:85 - 创建目录: ../data/processed/
+2025-11-26 14:11:14,363 - INFO - enhanced_chembl_collector.py:85 - 创建目录: ../models/
+2025-11-26 14:11:14,363 - INFO - enhanced_chembl_collector.py:85 - 创建目录: ../results/
+2025-11-26 14:11:14,363 - INFO - enhanced_chembl_collector.py:85 - 创建目录: ../logs/
+2025-11-26 14:11:14,363 - DEBUG - enhanced_chembl_collector.py:97 - 会话设置完成
+2025-11-26 14:11:14,363 - INFO - enhanced_chembl_collector.py:456 - 开始完整数据收集流程
+2025-11-26 14:11:14,363 - INFO - enhanced_chembl_collector.py:249 - 开始收集化合物数据
+2025-11-26 14:11:14,371 - INFO - enhanced_chembl_collector.py:182 - 搜索化合物: METFORMIN
+2025-11-26 14:11:14,371 - DEBUG - enhanced_chembl_collector.py:111 - API请求尝试 1: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:14,375 - DEBUG - connectionpool.py:1049 - Starting new HTTPS connection (1): www.ebi.ac.uk:443
+2025-11-26 14:11:16,111 - DEBUG - connectionpool.py:544 - https://www.ebi.ac.uk:443 "GET /chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=METFORMIN&limit=100 HTTP/1.1" 404 122901
+2025-11-26 14:11:17,049 - DEBUG - enhanced_chembl_collector.py:120 - 响应状态码: 404
+2025-11-26 14:11:17,049 - ERROR - enhanced_chembl_collector.py:153 - HTTP错误 (尝试 1): 404 Client Error: Not Found for url: https://www.ebi.ac.uk/chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=METFORMIN&limit=100
+2025-11-26 14:11:17,049 - ERROR - enhanced_chembl_collector.py:155 - 端点不存在: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:17,551 - WARNING - enhanced_chembl_collector.py:192 - 未找到化合物: METFORMIN
+2025-11-26 14:11:17,552 - INFO - enhanced_chembl_collector.py:182 - 搜索化合物: ASPIRIN
+2025-11-26 14:11:17,552 - DEBUG - enhanced_chembl_collector.py:111 - API请求尝试 1: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:17,994 - DEBUG - connectionpool.py:544 - https://www.ebi.ac.uk:443 "GET /chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=ASPIRIN&limit=100 HTTP/1.1" 404 122899
+2025-11-26 14:11:18,312 - DEBUG - enhanced_chembl_collector.py:120 - 响应状态码: 404
+2025-11-26 14:11:18,312 - ERROR - enhanced_chembl_collector.py:153 - HTTP错误 (尝试 1): 404 Client Error: Not Found for url: https://www.ebi.ac.uk/chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=ASPIRIN&limit=100
+2025-11-26 14:11:18,312 - ERROR - enhanced_chembl_collector.py:155 - 端点不存在: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:18,815 - WARNING - enhanced_chembl_collector.py:192 - 未找到化合物: ASPIRIN
+2025-11-26 14:11:18,815 - INFO - enhanced_chembl_collector.py:182 - 搜索化合物: SIMVASTATIN
+2025-11-26 14:11:18,815 - DEBUG - enhanced_chembl_collector.py:111 - API请求尝试 1: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:19,591 - DEBUG - connectionpool.py:544 - https://www.ebi.ac.uk:443 "GET /chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=SIMVASTATIN&limit=100 HTTP/1.1" 404 122903
+2025-11-26 14:11:19,669 - DEBUG - enhanced_chembl_collector.py:120 - 响应状态码: 404
+2025-11-26 14:11:19,671 - ERROR - enhanced_chembl_collector.py:153 - HTTP错误 (尝试 1): 404 Client Error: Not Found for url: https://www.ebi.ac.uk/chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=SIMVASTATIN&limit=100
+2025-11-26 14:11:19,671 - ERROR - enhanced_chembl_collector.py:155 - 端点不存在: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:20,172 - WARNING - enhanced_chembl_collector.py:192 - 未找到化合物: SIMVASTATIN
+2025-11-26 14:11:20,172 - INFO - enhanced_chembl_collector.py:182 - 搜索化合物: PROPRANOLOL
+2025-11-26 14:11:20,172 - DEBUG - enhanced_chembl_collector.py:111 - API请求尝试 1: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:20,552 - DEBUG - connectionpool.py:544 - https://www.ebi.ac.uk:443 "GET /chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=PROPRANOLOL&limit=100 HTTP/1.1" 404 122903
+2025-11-26 14:11:20,872 - DEBUG - enhanced_chembl_collector.py:120 - 响应状态码: 404
+2025-11-26 14:11:20,873 - ERROR - enhanced_chembl_collector.py:153 - HTTP错误 (尝试 1): 404 Client Error: Not Found for url: https://www.ebi.ac.uk/chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=PROPRANOLOL&limit=100
+2025-11-26 14:11:20,873 - ERROR - enhanced_chembl_collector.py:155 - 端点不存在: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:21,374 - WARNING - enhanced_chembl_collector.py:192 - 未找到化合物: PROPRANOLOL
+2025-11-26 14:11:21,374 - INFO - enhanced_chembl_collector.py:182 - 搜索化合物: SILDENAFIL
+2025-11-26 14:11:21,374 - DEBUG - enhanced_chembl_collector.py:111 - API请求尝试 1: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:21,659 - DEBUG - connectionpool.py:544 - https://www.ebi.ac.uk:443 "GET /chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=SILDENAFIL&limit=100 HTTP/1.1" 404 122902
+2025-11-26 14:11:21,798 - DEBUG - enhanced_chembl_collector.py:120 - 响应状态码: 404
+2025-11-26 14:11:21,798 - ERROR - enhanced_chembl_collector.py:153 - HTTP错误 (尝试 1): 404 Client Error: Not Found for url: https://www.ebi.ac.uk/chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=SILDENAFIL&limit=100
+2025-11-26 14:11:21,798 - ERROR - enhanced_chembl_collector.py:155 - 端点不存在: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:22,299 - WARNING - enhanced_chembl_collector.py:192 - 未找到化合物: SILDENAFIL
+2025-11-26 14:11:22,299 - INFO - enhanced_chembl_collector.py:182 - 搜索化合物: ATORVASTATIN
+2025-11-26 14:11:22,299 - DEBUG - enhanced_chembl_collector.py:111 - API请求尝试 1: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:22,626 - DEBUG - connectionpool.py:544 - https://www.ebi.ac.uk:443 "GET /chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=ATORVASTATIN&limit=100 HTTP/1.1" 404 122904
+2025-11-26 14:11:22,703 - DEBUG - enhanced_chembl_collector.py:120 - 响应状态码: 404
+2025-11-26 14:11:22,703 - ERROR - enhanced_chembl_collector.py:153 - HTTP错误 (尝试 1): 404 Client Error: Not Found for url: https://www.ebi.ac.uk/chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=ATORVASTATIN&limit=100
+2025-11-26 14:11:22,703 - ERROR - enhanced_chembl_collector.py:155 - 端点不存在: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:23,207 - WARNING - enhanced_chembl_collector.py:192 - 未找到化合物: ATORVASTATIN
+2025-11-26 14:11:23,207 - INFO - enhanced_chembl_collector.py:182 - 搜索化合物: LISINOPRIL
+2025-11-26 14:11:23,207 - DEBUG - enhanced_chembl_collector.py:111 - API请求尝试 1: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:23,500 - DEBUG - connectionpool.py:544 - https://www.ebi.ac.uk:443 "GET /chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=LISINOPRIL&limit=100 HTTP/1.1" 404 122902
+2025-11-26 14:11:23,640 - DEBUG - enhanced_chembl_collector.py:120 - 响应状态码: 404
+2025-11-26 14:11:23,640 - ERROR - enhanced_chembl_collector.py:153 - HTTP错误 (尝试 1): 404 Client Error: Not Found for url: https://www.ebi.ac.uk/chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=LISINOPRIL&limit=100
+2025-11-26 14:11:23,640 - ERROR - enhanced_chembl_collector.py:155 - 端点不存在: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:24,144 - WARNING - enhanced_chembl_collector.py:192 - 未找到化合物: LISINOPRIL
+2025-11-26 14:11:24,144 - INFO - enhanced_chembl_collector.py:182 - 搜索化合物: METOPROLOL
+2025-11-26 14:11:24,145 - DEBUG - enhanced_chembl_collector.py:111 - API请求尝试 1: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:24,437 - DEBUG - connectionpool.py:544 - https://www.ebi.ac.uk:443 "GET /chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=METOPROLOL&limit=100 HTTP/1.1" 404 122902
+2025-11-26 14:11:24,869 - DEBUG - enhanced_chembl_collector.py:120 - 响应状态码: 404
+2025-11-26 14:11:24,869 - ERROR - enhanced_chembl_collector.py:153 - HTTP错误 (尝试 1): 404 Client Error: Not Found for url: https://www.ebi.ac.uk/chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=METOPROLOL&limit=100
+2025-11-26 14:11:24,869 - ERROR - enhanced_chembl_collector.py:155 - 端点不存在: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:25,371 - WARNING - enhanced_chembl_collector.py:192 - 未找到化合物: METOPROLOL
+2025-11-26 14:11:25,371 - INFO - enhanced_chembl_collector.py:182 - 搜索化合物: WARFARIN
+2025-11-26 14:11:25,371 - DEBUG - enhanced_chembl_collector.py:111 - API请求尝试 1: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:25,673 - DEBUG - connectionpool.py:544 - https://www.ebi.ac.uk:443 "GET /chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=WARFARIN&limit=100 HTTP/1.1" 404 122900
+2025-11-26 14:11:26,166 - DEBUG - enhanced_chembl_collector.py:120 - 响应状态码: 404
+2025-11-26 14:11:26,166 - ERROR - enhanced_chembl_collector.py:153 - HTTP错误 (尝试 1): 404 Client Error: Not Found for url: https://www.ebi.ac.uk/chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=WARFARIN&limit=100
+2025-11-26 14:11:26,166 - ERROR - enhanced_chembl_collector.py:155 - 端点不存在: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:26,667 - WARNING - enhanced_chembl_collector.py:192 - 未找到化合物: WARFARIN
+2025-11-26 14:11:26,667 - INFO - enhanced_chembl_collector.py:182 - 搜索化合物: IBUPROFEN
+2025-11-26 14:11:26,668 - DEBUG - enhanced_chembl_collector.py:111 - API请求尝试 1: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:27,151 - DEBUG - connectionpool.py:544 - https://www.ebi.ac.uk:443 "GET /chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=IBUPROFEN&limit=100 HTTP/1.1" 404 122901
+2025-11-26 14:11:27,429 - DEBUG - enhanced_chembl_collector.py:120 - 响应状态码: 404
+2025-11-26 14:11:27,429 - ERROR - enhanced_chembl_collector.py:153 - HTTP错误 (尝试 1): 404 Client Error: Not Found for url: https://www.ebi.ac.uk/chembl/api/data/compounds.json?molecule_synonyms__molecule_synonym__iexact=IBUPROFEN&limit=100
+2025-11-26 14:11:27,429 - ERROR - enhanced_chembl_collector.py:155 - 端点不存在: https://www.ebi.ac.uk/chembl/api/data/compounds.json
+2025-11-26 14:11:27,931 - WARNING - enhanced_chembl_collector.py:192 - 未找到化合物: IBUPROFEN
+2025-11-26 14:11:27,933 - WARNING - enhanced_chembl_collector.py:275 - API调用失败，使用备用数据
+2025-11-26 14:11:27,937 - INFO - enhanced_chembl_collector.py:461 - 收集到化合物: 3 条
+2025-11-26 14:11:27,937 - INFO - enhanced_chembl_collector.py:314 - 开始收集活性数据
+2025-11-26 14:11:27,950 - INFO - enhanced_chembl_collector.py:204 - 获取活性数据: CHEMBL1000
+2025-11-26 14:11:27,950 - DEBUG - enhanced_chembl_collector.py:111 - API请求尝试 1: https://www.ebi.ac.uk/chembl/api/data/activities.json
+2025-11-26 14:11:28,245 - DEBUG - connectionpool.py:544 - https://www.ebi.ac.uk:443 "GET /chembl/api/data/activities.json?molecule_chembl_id=CHEMBL1000&limit=100&standard_type=IC50 HTTP/1.1" 404 122903
+2025-11-26 14:11:28,586 - DEBUG - enhanced_chembl_collector.py:120 - 响应状态码: 404
+2025-11-26 14:11:28,586 - ERROR - enhanced_chembl_collector.py:153 - HTTP错误 (尝试 1): 404 Client Error: Not Found for url: https://www.ebi.ac.uk/chembl/api/data/activities.json?molecule_chembl_id=CHEMBL1000&limit=100&standard_type=IC50
+2025-11-26 14:11:28,586 - ERROR - enhanced_chembl_collector.py:155 - 端点不存在: https://www.ebi.ac.uk/chembl/api/data/activities.json
+2025-11-26 14:11:29,088 - WARNING - enhanced_chembl_collector.py:215 - 未找到活性数据: CHEMBL1000
+2025-11-26 14:11:29,088 - INFO - enhanced_chembl_collector.py:204 - 获取活性数据: CHEMBL2000
+2025-11-26 14:11:29,088 - DEBUG - enhanced_chembl_collector.py:111 - API请求尝试 1: https://www.ebi.ac.uk/chembl/api/data/activities.json
+2025-11-26 14:11:29,507 - DEBUG - connectionpool.py:544 - https://www.ebi.ac.uk:443 "GET /chembl/api/data/activities.json?molecule_chembl_id=CHEMBL2000&limit=100&standard_type=IC50 HTTP/1.1" 404 122903
+2025-11-26 14:11:29,720 - DEBUG - enhanced_chembl_collector.py:120 - 响应状态码: 404
+2025-11-26 14:11:29,720 - ERROR - enhanced_chembl_collector.py:153 - HTTP错误 (尝试 1): 404 Client Error: Not Found for url: https://www.ebi.ac.uk/chembl/api/data/activities.json?molecule_chembl_id=CHEMBL2000&limit=100&standard_type=IC50
+2025-11-26 14:11:29,720 - ERROR - enhanced_chembl_collector.py:155 - 端点不存在: https://www.ebi.ac.uk/chembl/api/data/activities.json
+2025-11-26 14:11:30,224 - WARNING - enhanced_chembl_collector.py:215 - 未找到活性数据: CHEMBL2000
+2025-11-26 14:11:30,224 - INFO - enhanced_chembl_collector.py:204 - 获取活性数据: CHEMBL3000
+2025-11-26 14:11:30,224 - DEBUG - enhanced_chembl_collector.py:111 - API请求尝试 1: https://www.ebi.ac.uk/chembl/api/data/activities.json
+2025-11-26 14:11:30,628 - DEBUG - connectionpool.py:544 - https://www.ebi.ac.uk:443 "GET /chembl/api/data/activities.json?molecule_chembl_id=CHEMBL3000&limit=100&standard_type=IC50 HTTP/1.1" 404 122903
+2025-11-26 14:11:30,861 - DEBUG - enhanced_chembl_collector.py:120 - 响应状态码: 404
+2025-11-26 14:11:30,864 - ERROR - enhanced_chembl_collector.py:153 - HTTP错误 (尝试 1): 404 Client Error: Not Found for url: https://www.ebi.ac.uk/chembl/api/data/activities.json?molecule_chembl_id=CHEMBL3000&limit=100&standard_type=IC50
+2025-11-26 14:11:30,864 - ERROR - enhanced_chembl_collector.py:155 - 端点不存在: https://www.ebi.ac.uk/chembl/api/data/activities.json
+2025-11-26 14:11:31,365 - WARNING - enhanced_chembl_collector.py:215 - 未找到活性数据: CHEMBL3000
+2025-11-26 14:11:31,366 - WARNING - enhanced_chembl_collector.py:341 - 创建模拟活性数据
+2025-11-26 14:11:31,366 - INFO - enhanced_chembl_collector.py:465 - 收集到活性数据: 9 条
+2025-11-26 14:11:31,370 - INFO - enhanced_chembl_collector.py:366 - 开始收集疾病相关靶点数据
+2025-11-26 14:11:31,370 - INFO - enhanced_chembl_collector.py:227 - 搜索靶点: DIABETES
+2025-11-26 14:11:31,370 - DEBUG - enhanced_chembl_collector.py:111 - API请求尝试 1: https://www.ebi.ac.uk/chembl/api/data/targets.json
+2025-11-26 14:11:31,752 - DEBUG - connectionpool.py:544 - https://www.ebi.ac.uk:443 "GET /chembl/api/data/targets.json?pref_name__icontains=DIABETES&limit=100 HTTP/1.1" 404 122871
+2025-11-26 14:11:32,319 - DEBUG - enhanced_chembl_collector.py:120 - 响应状态码: 404
+2025-11-26 14:11:32,319 - ERROR - enhanced_chembl_collector.py:153 - HTTP错误 (尝试 1): 404 Client Error: Not Found for url: https://www.ebi.ac.uk/chembl/api/data/targets.json?pref_name__icontains=DIABETES&limit=100
+2025-11-26 14:11:32,319 - ERROR - enhanced_chembl_collector.py:155 - 端点不存在: https://www.ebi.ac.uk/chembl/api/data/targets.json
+2025-11-26 14:11:32,821 - WARNING - enhanced_chembl_collector.py:237 - 未找到靶点: DIABETES
+2025-11-26 14:11:32,824 - INFO - enhanced_chembl_collector.py:227 - 搜索靶点: ALZHEIMER
+2025-11-26 14:11:32,826 - DEBUG - enhanced_chembl_collector.py:111 - API请求尝试 1: https://www.ebi.ac.uk/chembl/api/data/targets.json
+2025-11-26 14:11:33,195 - DEBUG - connectionpool.py:544 - https://www.ebi.ac.uk:443 "GET /chembl/api/data/targets.json?pref_name__icontains=ALZHEIMER&limit=100 HTTP/1.1" 404 122872
+2025-11-26 14:11:33,469 - DEBUG - enhanced_chembl_collector.py:120 - 响应状态码: 404
+2025-11-26 14:11:33,470 - ERROR - enhanced_chembl_collector.py:153 - HTTP错误 (尝试 1): 404 Client Error: Not Found for url: https://www.ebi.ac.uk/chembl/api/data/targets.json?pref_name__icontains=ALZHEIMER&limit=100
+2025-11-26 14:11:33,472 - ERROR - enhanced_chembl_collector.py:155 - 端点不存在: https://www.ebi.ac.uk/chembl/api/data/targets.json
+2025-11-26 14:11:33,973 - WARNING - enhanced_chembl_collector.py:237 - 未找到靶点: ALZHEIMER
+2025-11-26 14:11:33,974 - INFO - enhanced_chembl_collector.py:227 - 搜索靶点: CANCER
+2025-11-26 14:11:33,974 - DEBUG - enhanced_chembl_collector.py:111 - API请求尝试 1: https://www.ebi.ac.uk/chembl/api/data/targets.json
+2025-11-26 14:11:34,302 - DEBUG - connectionpool.py:544 - https://www.ebi.ac.uk:443 "GET /chembl/api/data/targets.json?pref_name__icontains=CANCER&limit=100 HTTP/1.1" 404 122869
+2025-11-26 14:11:34,575 - DEBUG - enhanced_chembl_collector.py:120 - 响应状态码: 404
+2025-11-26 14:11:34,575 - ERROR - enhanced_chembl_collector.py:153 - HTTP错误 (尝试 1): 404 Client Error: Not Found for url: https://www.ebi.ac.uk/chembl/api/data/targets.json?pref_name__icontains=CANCER&limit=100
+2025-11-26 14:11:34,575 - ERROR - enhanced_chembl_collector.py:155 - 端点不存在: https://www.ebi.ac.uk/chembl/api/data/targets.json
+2025-11-26 14:11:35,078 - WARNING - enhanced_chembl_collector.py:237 - 未找到靶点: CANCER
+2025-11-26 14:11:35,078 - INFO - enhanced_chembl_collector.py:227 - 搜索靶点: HYPERTENSION
+2025-11-26 14:11:35,078 - DEBUG - enhanced_chembl_collector.py:111 - API请求尝试 1: https://www.ebi.ac.uk/chembl/api/data/targets.json
+2025-11-26 14:11:35,429 - DEBUG - connectionpool.py:544 - https://www.ebi.ac.uk:443 "GET /chembl/api/data/targets.json?pref_name__icontains=HYPERTENSION&limit=100 HTTP/1.1" 404 122875
+2025-11-26 14:11:35,921 - DEBUG - enhanced_chembl_collector.py:120 - 响应状态码: 404
+2025-11-26 14:11:35,921 - ERROR - enhanced_chembl_collector.py:153 - HTTP错误 (尝试 1): 404 Client Error: Not Found for url: https://www.ebi.ac.uk/chembl/api/data/targets.json?pref_name__icontains=HYPERTENSION&limit=100
+2025-11-26 14:11:35,921 - ERROR - enhanced_chembl_collector.py:155 - 端点不存在: https://www.ebi.ac.uk/chembl/api/data/targets.json
+2025-11-26 14:11:36,423 - WARNING - enhanced_chembl_collector.py:237 - 未找到靶点: HYPERTENSION
+2025-11-26 14:11:36,423 - INFO - enhanced_chembl_collector.py:227 - 搜索靶点: ASTHMA
+2025-11-26 14:11:36,423 - DEBUG - enhanced_chembl_collector.py:111 - API请求尝试 1: https://www.ebi.ac.uk/chembl/api/data/targets.json
+2025-11-26 14:11:36,851 - DEBUG - connectionpool.py:544 - https://www.ebi.ac.uk:443 "GET /chembl/api/data/targets.json?pref_name__icontains=ASTHMA&limit=100 HTTP/1.1" 404 122869
+2025-11-26 14:11:37,062 - DEBUG - enhanced_chembl_collector.py:120 - 响应状态码: 404
+2025-11-26 14:11:37,063 - ERROR - enhanced_chembl_collector.py:153 - HTTP错误 (尝试 1): 404 Client Error: Not Found for url: https://www.ebi.ac.uk/chembl/api/data/targets.json?pref_name__icontains=ASTHMA&limit=100
+2025-11-26 14:11:37,063 - ERROR - enhanced_chembl_collector.py:155 - 端点不存在: https://www.ebi.ac.uk/chembl/api/data/targets.json
+2025-11-26 14:11:37,564 - WARNING - enhanced_chembl_collector.py:237 - 未找到靶点: ASTHMA
+2025-11-26 14:11:37,564 - WARNING - enhanced_chembl_collector.py:388 - 创建模拟靶点数据
+2025-11-26 14:11:37,564 - INFO - enhanced_chembl_collector.py:469 - 收集到靶点: 5 条
+2025-11-26 14:11:37,566 - INFO - enhanced_chembl_collector.py:408 - 创建药物-疾病关联数据
+2025-11-26 14:11:37,566 - INFO - enhanced_chembl_collector.py:437 - 创建了 13 个关联记录
+2025-11-26 14:11:37,566 - INFO - enhanced_chembl_collector.py:473 - 创建关联: 13 条
+2025-11-26 14:11:37,575 - INFO - enhanced_chembl_collector.py:448 - 数据保存完成

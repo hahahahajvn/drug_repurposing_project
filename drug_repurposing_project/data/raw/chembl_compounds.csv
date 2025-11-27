@@ -1,0 +1,4 @@
+chembl_id,pref_name,molecular_weight,alogp,hbd,hba
+CHEMBL1000,METFORMIN,129.16,-0.54,3,4
+CHEMBL2000,ASPIRIN,180.16,1.19,1,4
+CHEMBL3000,SIMVASTATIN,418.57,4.68,1,5
